@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Supply.LocalSupply">
+    <void property="dateOfArrival">
+     <string>2021.01.02</string>
+    </void>
+    <void property="dateOfDepature">
+     <string>2020.08.02</string>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="itemType">
+     <object class="Category.Produce">
+      <void property="discount">
+       <float>10.0</float>
+      </void>
+      <void property="id">
+       <int>71</int>
+      </void>
+      <void property="itemName">
+       <string>Beet root</string>
+      </void>
+      <void property="retailPrice">
+       <float>120.0</float>
+      </void>
+      <void property="weight">
+       <float>100.0</float>
+      </void>
+     </object>
+    </void>
+    <void property="pending">
+     <boolean>true</boolean>
+    </void>
+    <void property="supplierName">
+     <string>Srimal Products</string>
+    </void>
+    <void property="vehicleID">
+     <string>ABC-3877</string>
+    </void>
+    <void property="vehicleType">
+     <string>Van</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Supply.LocalSupply">
+    <void property="dateOfArrival">
+     <string>2021.03.17</string>
+    </void>
+    <void property="dateOfDepature">
+     <string>2020.12.31</string>
+    </void>
+    <void property="id">
+     <int>2</int>
+    </void>
+    <void property="itemType">
+     <object class="Category.Beverage">
+      <void property="discount">
+       <float>7.0</float>
+      </void>
+      <void property="id">
+       <int>72</int>
+      </void>
+      <void property="itemName">
+       <string>Sprite</string>
+      </void>
+      <void property="numOfItems">
+       <int>200</int>
+      </void>
+      <void property="retailPrice">
+       <float>60.0</float>
+      </void>
+     </object>
+    </void>
+    <void property="pending">
+     <boolean>true</boolean>
+    </void>
+    <void property="supplierName">
+     <string>Sprite PLC</string>
+    </void>
+    <void property="vehicleID">
+     <string>LA-1447</string>
+    </void>
+    <void property="vehicleType">
+     <string>LargeTruck</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Supply.InternationalSupply">
+    <void property="dateOfArrival">
+     <string>2020.03.21</string>
+    </void>
+    <void property="dateOfDepature">
+     <string>2019.11.31</string>
+    </void>
+    <void property="dateToHabour">
+     <string>2020.02.20</string>
+    </void>
+    <void property="id">
+     <int>3</int>
+    </void>
+    <void property="itemType">
+     <object class="Category.HealthAndBeauty">
+      <void property="discount">
+       <float>5.0</float>
+      </void>
+      <void property="id">
+       <int>73</int>
+      </void>
+      <void property="itemName">
+       <string>FairAndLovely</string>
+      </void>
+      <void property="numOfItems">
+       <int>200</int>
+      </void>
+      <void property="retailPrice">
+       <float>45.0</float>
+      </void>
+     </object>
+    </void>
+    <void property="pending">
+     <boolean>true</boolean>
+    </void>
+    <void property="shipNumber">
+     <string>US-234</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Supply.InternationalSupply">
+    <void property="dateOfArrival">
+     <string>2021.05.21</string>
+    </void>
+    <void property="dateOfDepature">
+     <string>2021.02.23</string>
+    </void>
+    <void property="dateToHabour">
+     <string>2021.04.20</string>
+    </void>
+    <void property="id">
+     <int>4</int>
+    </void>
+    <void property="itemType">
+     <object class="Category.SnackAndSweet">
+      <void property="discount">
+       <float>5.0</float>
+      </void>
+      <void property="id">
+       <int>74</int>
+      </void>
+      <void property="itemName">
+       <string>Snacky</string>
+      </void>
+      <void property="numOfItems">
+       <int>120</int>
+      </void>
+      <void property="retailPrice">
+       <float>45.0</float>
+      </void>
+     </object>
+    </void>
+    <void property="pending">
+     <boolean>true</boolean>
+    </void>
+    <void property="shipNumber">
+     <string>CN-765</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Supply.LocalSupply">
+    <void property="dateOfArrival">
+     <string>2021.07.12</string>
+    </void>
+    <void property="dateOfDepature">
+     <string>2021.07.11</string>
+    </void>
+    <void property="id">
+     <int>5</int>
+    </void>
+    <void property="itemType">
+     <object class="Category.Bakery">
+      <void property="id">
+       <int>8</int>
+      </void>
+      <void property="itemName">
+       <string>Tea bun</string>
+      </void>
+      <void property="numOfItems">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void property="pending">
+     <boolean>true</boolean>
+    </void>
+    <void property="supplierName">
+     <string>ThusithaBakery</string>
+    </void>
+    <void property="vehicleID">
+     <string>LP-1490</string>
+    </void>
+    <void property="vehicleType">
+     <string>SmallTruck</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

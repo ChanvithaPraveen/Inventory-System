@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Category.Produce">
+    <void property="discount">
+     <float>11.0</float>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="itemName">
+     <string>Carrot</string>
+    </void>
+    <void property="retailPrice">
+     <float>100.0</float>
+    </void>
+    <void property="weight">
+     <float>300.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.MeatAndSeaFood">
+    <void property="discount">
+     <float>10.0</float>
+    </void>
+    <void property="itemName">
+     <string>Chicken</string>
+    </void>
+    <void property="retailPrice">
+     <float>400.0</float>
+    </void>
+    <void property="weight">
+     <float>100.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Grain">
+    <void property="brand">
+     <string>Araliya</string>
+    </void>
+    <void property="discount">
+     <float>10.0</float>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="itemName">
+     <string>Rice</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="retailPrice">
+     <float>120.0</float>
+    </void>
+    <void property="weight">
+     <float>1000.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Produce">
+    <void property="discount">
+     <float>5.0</float>
+    </void>
+    <void property="id">
+     <int>3</int>
+    </void>
+    <void property="itemName">
+     <string>beans</string>
+    </void>
+    <void property="retailPrice">
+     <float>80.0</float>
+    </void>
+    <void property="weight">
+     <float>400.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.SnackAndSweet">
+    <void property="brand">
+     <string>Pringles</string>
+    </void>
+    <void property="discount">
+     <float>12.0</float>
+    </void>
+    <void property="id">
+     <int>2</int>
+    </void>
+    <void property="itemName">
+     <string>Pringles Chips</string>
+    </void>
+    <void property="numOfItems">
+     <int>200</int>
+    </void>
+    <void property="retailPrice">
+     <float>400.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Produce">
+    <void property="id">
+     <int>5</int>
+    </void>
+    <void property="itemName">
+     <string>apples</string>
+    </void>
+    <void property="promotion">
+     <float>10.0</float>
+    </void>
+    <void property="retailPrice">
+     <float>200.0</float>
+    </void>
+    <void property="weight">
+     <float>70.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.MeatAndSeaFood">
+    <void property="discount">
+     <float>4.0</float>
+    </void>
+    <void property="id">
+     <int>4</int>
+    </void>
+    <void property="itemName">
+     <string>fish</string>
+    </void>
+    <void property="retailPrice">
+     <float>200.0</float>
+    </void>
+    <void property="weight">
+     <float>90.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.MeatAndSeaFood">
+    <void property="id">
+     <int>6</int>
+    </void>
+    <void property="itemName">
+     <string>prawns</string>
+    </void>
+    <void property="promotion">
+     <float>8.0</float>
+    </void>
+    <void property="retailPrice">
+     <float>500.0</float>
+    </void>
+    <void property="weight">
+     <float>100.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Grain">
+    <void property="brand">
+     <string>wijaya</string>
+    </void>
+    <void property="discount">
+     <float>3.0</float>
+    </void>
+    <void property="id">
+     <int>7</int>
+    </void>
+    <void property="itemName">
+     <string>dhal</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="retailPrice">
+     <float>110.0</float>
+    </void>
+    <void property="weight">
+     <float>80.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Bakery">
+    <void property="brand">
+     <string>Perera</string>
+    </void>
+    <void property="id">
+     <int>8</int>
+    </void>
+    <void property="itemName">
+     <string>tea buns</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>50</int>
+    </void>
+    <void property="promotion">
+     <float>2.0</float>
+    </void>
+    <void property="retailPrice">
+     <float>50.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Bakery">
+    <void property="brand">
+     <string>Keels</string>
+    </void>
+    <void property="discount">
+     <float>3.0</float>
+    </void>
+    <void property="id">
+     <int>9</int>
+    </void>
+    <void property="itemName">
+     <string>Dougnuts</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>40</int>
+    </void>
+    <void property="retailPrice">
+     <float>90.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.FrozenFood">
+    <void property="brand">
+     <string>McCain</string>
+    </void>
+    <void property="discount">
+     <float>5.0</float>
+    </void>
+    <void property="id">
+     <int>10</int>
+    </void>
+    <void property="itemName">
+     <string>French Fries</string>
+    </void>
+    <void property="numOfItems">
+     <int>100</int>
+    </void>
+    <void property="retailPrice">
+     <float>530.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.FrozenFood">
+    <void property="brand">
+     <string>Krest</string>
+    </void>
+    <void property="discount">
+     <float>10.0</float>
+    </void>
+    <void property="id">
+     <int>11</int>
+    </void>
+    <void property="itemName">
+     <string>sausages</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>90</int>
+    </void>
+    <void property="retailPrice">
+     <float>220.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.DiaryProduct">
+    <void property="brand">
+     <string>Ambewela</string>
+    </void>
+    <void property="discount">
+     <float>5.0</float>
+    </void>
+    <void property="id">
+     <int>12</int>
+    </void>
+    <void property="itemName">
+     <string>cheese</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>200</int>
+    </void>
+    <void property="retailPrice">
+     <float>420.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.DiaryProduct">
+    <void property="brand">
+     <string>Newdale</string>
+    </void>
+    <void property="discount">
+     <float>12.0</float>
+    </void>
+    <void property="id">
+     <int>13</int>
+    </void>
+    <void property="itemName">
+     <string>butter</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>300</int>
+    </void>
+    <void property="retailPrice">
+     <float>140.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.SnackAndSweet">
+    <void property="brand">
+     <string>munchee</string>
+    </void>
+    <void property="discount">
+     <float>3.0</float>
+    </void>
+    <void property="id">
+     <int>14</int>
+    </void>
+    <void property="itemName">
+     <string>chocolate biscuits</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>500</int>
+    </void>
+    <void property="retailPrice">
+     <float>50.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Beverage">
+    <void property="brand">
+     <string>coca</string>
+    </void>
+    <void property="id">
+     <int>15</int>
+    </void>
+    <void property="itemName">
+     <string>coca cola</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>100</int>
+    </void>
+    <void property="promotion">
+     <float>3.0</float>
+    </void>
+    <void property="retailPrice">
+     <float>100.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.Beverage">
+    <void property="brand">
+     <string>elephant</string>
+    </void>
+    <void property="id">
+     <int>16</int>
+    </void>
+    <void property="itemName">
+     <string>fanta</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>400</int>
+    </void>
+    <void property="promotion">
+     <float>5.0</float>
+    </void>
+    <void property="retailPrice">
+     <float>90.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.HealthAndBeauty">
+    <void property="brand">
+     <string>sunsilk</string>
+    </void>
+    <void property="discount">
+     <float>12.0</float>
+    </void>
+    <void property="id">
+     <int>17</int>
+    </void>
+    <void property="itemName">
+     <string>shampoo</string>
+    </void>
+    <void property="numOfItems">
+     <int>250</int>
+    </void>
+    <void property="retailPrice">
+     <float>290.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.HealthAndBeauty">
+    <void property="brand">
+     <string>nature</string>
+    </void>
+    <void property="discount">
+     <float>10.0</float>
+    </void>
+    <void property="id">
+     <int>18</int>
+    </void>
+    <void property="itemName">
+     <string>face wash</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>220</int>
+    </void>
+    <void property="retailPrice">
+     <float>310.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.CondimentAndSpice">
+    <void property="brand">
+     <string>Isi</string>
+    </void>
+    <void property="discount">
+     <float>5.0</float>
+    </void>
+    <void property="id">
+     <int>19</int>
+    </void>
+    <void property="itemName">
+     <string>salt</string>
+    </void>
+    <void property="local">
+     <boolean>true</boolean>
+    </void>
+    <void property="numOfItems">
+     <int>450</int>
+    </void>
+    <void property="retailPrice">
+     <float>85.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Category.CondimentAndSpice">
+    <void property="brand">
+     <string>edimbaro</string>
+    </void>
+    <void property="id">
+     <int>20</int>
+    </void>
+    <void property="itemName">
+     <string>say sauce</string>
+    </void>
+    <void property="numOfItems">
+     <int>200</int>
+    </void>
+    <void property="promotion">
+     <float>15.0</float>
+    </void>
+    <void property="retailPrice">
+     <float>250.0</float>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

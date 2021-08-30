@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Supply.LocalSupply">
+    <void property="dateOfArrival">
+     <string>2021.01.02</string>
+    </void>
+    <void property="dateOfDepature">
+     <string>2020.08.02</string>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="itemType">
+     <object class="Category.Produce">
+      <void property="id">
+       <int>71</int>
+      </void>
+      <void property="itemName">
+       <string>Beet root</string>
+      </void>
+      <void property="weight">
+       <float>100.0</float>
+      </void>
+     </object>
+    </void>
+    <void property="pending">
+     <boolean>true</boolean>
+    </void>
+    <void property="supplierName">
+     <string>Srimal Products</string>
+    </void>
+    <void property="vehicleID">
+     <string>ABC-3877</string>
+    </void>
+    <void property="vehicleType">
+     <string>Van</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Staff.Owner">
+    <void property="fullName">
+     <string>Lasith Malinga</string>
+    </void>
+    <void property="joinedDate">
+     <string>2014/03/01</string>
+    </void>
+    <void property="password">
+     <string>king</string>
+    </void>
+    <void property="userName">
+     <string>owner</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Staff.Manager">
+    <void property="fullName">
+     <string>Dilshan Munaweera</string>
+    </void>
+    <void property="joinedDate">
+     <string>2015/03/01</string>
+    </void>
+    <void property="password">
+     <string>1234</string>
+    </void>
+    <void property="userID">
+     <int>2</int>
+    </void>
+    <void property="userName">
+     <string>dilshan</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Staff.Manager">
+    <void property="fullName">
+     <string>Harith Kulathunga</string>
+    </void>
+    <void property="joinedDate">
+     <string>01/04/2015</string>
+    </void>
+    <void property="password">
+     <string>abc111</string>
+    </void>
+    <void property="userID">
+     <int>3</int>
+    </void>
+    <void property="userName">
+     <string>harith12</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Staff.Manager">
+    <void property="fullName">
+     <string>Kamal Gunarathne</string>
+    </void>
+    <void property="joinedDate">
+     <string>01/02/2016</string>
+    </void>
+    <void property="password">
+     <string>111</string>
+    </void>
+    <void property="userID">
+     <int>4</int>
+    </void>
+    <void property="userName">
+     <string>Gune1</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Staff.Cashier">
+    <void property="fullName">
+     <string>Supun perera</string>
+    </void>
+    <void property="joinedDate">
+     <string>02/09/2014</string>
+    </void>
+    <void property="password">
+     <string>sup123</string>
+    </void>
+    <void property="userID">
+     <int>5</int>
+    </void>
+    <void property="userName">
+     <string>Supun</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Staff.Cashier">
+    <void property="fullName">
+     <string>Sandun Perera</string>
+    </void>
+    <void property="joinedDate">
+     <string>01/04/2017</string>
+    </void>
+    <void property="password">
+     <string>s789</string>
+    </void>
+    <void property="userID">
+     <int>6</int>
+    </void>
+    <void property="userName">
+     <string>Perera</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Staff.FloorWorker">
+    <void property="fullName">
+     <string>Amal Rajapakshe</string>
+    </void>
+    <void property="joinedDate">
+     <string>12/02/2015</string>
+    </void>
+    <void property="password">
+     <string>Amal1</string>
+    </void>
+    <void property="userID">
+     <int>7</int>
+    </void>
+    <void property="userName">
+     <string>Amal</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
