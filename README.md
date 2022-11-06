@@ -48,7 +48,8 @@ Which is mainly divided into two parts as local and international.  <br><br>
 After entering the login screen, the program consists of three major screens for each of the 
 sections; Stock, Supply and Staff
 
-![screenshot](assets/logo/login.png)
+
+![screenshot](InventorySystem/assets/frontend.png)
 
 
 ## OOP Techniques
@@ -81,6 +82,11 @@ us to perform the same action in many different ways. In this system the same fu
 many getters and setters were used with same function names to override those methods between 
 classes. In the staff class, handleOrder(), addNewItem( ), removeItem( ) functions were used in 
 different sub classes using this concept. 
+
+![screenshot](InventorySystem/assets/catergory.png)
+![screenshot](InventorySystem/assets/staff.png)
+![screenshot](InventorySystem/assets/supply.png)
+![screenshot](InventorySystem/assets/uml.png)
 
 ## LIMITATIONS 
 
